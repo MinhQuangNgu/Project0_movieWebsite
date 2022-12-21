@@ -1,0 +1,21 @@
+.nomination-container{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    border-bottom: 0.1rem solid #1D2731;
+    padding-left:1rem;
+}
+.nomination{
+    width: 10rem;
+    height: 100%;
+    display: flex;
+    border-bottom: 0.2rem solid #FF503D;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.nomination > span{
+    font-size: 1.5rem;
+    color:#FF503D;
+    font-weight: 800;
+}

@@ -1,0 +1,217 @@
+.out_standing-container{
+    width: 100%;
+    padding: 1rem;
+}
+.categary-container{
+    width: 100%;
+}
+.categary-head-container{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border: 0.2rem solid #FD7337;
+    justify-content: center;
+}
+.categary-head{
+    font-size: 1.7rem;
+    background: -webkit-linear-gradient(#f12711, #f5af19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.categary-detail{
+    width: 100%;
+    margin-top: 1rem;
+    background-image: linear-gradient(90deg,#111820,#0B0F15);
+    border-radius: 0.5rem;
+}
+.categary-card-container{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    border-bottom: 0.05rem solid rgba(255,255,255,0.2);
+    padding:0.5rem;
+    -webkit-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+.categary-card-container:hover{
+    background-color: black;
+}
+.categary-card-container:last-child{
+    border-bottom: none;
+}
+.categary-card-img{
+    width: 25%;
+    height: 100%;
+}
+.categary-card-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.categary-card-detail{
+    width: 70%;
+    margin-left: 5%;
+    padding-top: 1rem;
+}
+.categary-card-viet-title{
+    font-size: 1.3rem;
+    color:white;
+    font-weight: 500;
+}
+.categary-card-english-title{
+    width: 100%;
+    margin-top: 1rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    color:rgba(255,255,255,0.5);
+}
+.categary-card-watch{
+    color:#E7AC2C;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+.tab-container{
+    width: 100%;
+}
+.tab_navbar-container{
+    width: 100%;
+    height: 4rem;
+    border-bottom: 0.1rem solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+}
+.tab_navbar-link{
+    text-decoration: none;
+    font-size: 1.7rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding:0 1rem 0 0;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#FF7B16, #FF503D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 0.2rem solid #FF503D;
+}
+.tab_card-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+.tab_card-detail-container{
+    width: 100%;
+    height: 30rem;
+    background-color: #202A34;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.tab_card-detail{
+    width: 100%;
+    height: 20%;
+    padding:1rem 0.5rem;
+    text-align:center;
+}
+.tab_card-title{
+    color:#B4850E;
+    width: 90%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 1.3rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tab_card-title-english{
+    color:#6F9EA3;
+    width: 90%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 2rem;
+}
+.tab_card-detail-container:hover .image-container > img{
+    transform: scale(1.15);
+}
+.watch-all{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+}
+.watch-all-link{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color:white;
+    align-items: center;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    padding-right: 1.5rem;
+    background-image: linear-gradient(270deg,#183F5E,#151D25);
+    font-weight: 700;
+}
+.watch-all-link:hover{
+    background-image: linear-gradient(270deg,black,#151D25);
+    color:#FF602F;
+}
+.tab_card-title-span{
+    text-transform:capitalize;
+}
+.tab_card-detail-container{
+    position: relative;
+}
+.tab_edit-file{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+.tab_card-detail-container:hover .tab_edit-file{
+    opacity: 1;
+}
+.tab_edit-file > button{
+    width: 50%;
+    margin:2rem 0;
+    height: 4rem;
+    font-size: 1.8rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.tab_edit-file > button:first-child{
+    background-color: red;
+    color:white;
+}
+.tab_edit-file > button:last-child{
+    background-color: green;
+    color:white;
+}
+.tab_edit-file > button:active{
+    transform: scale(1.1);
+}

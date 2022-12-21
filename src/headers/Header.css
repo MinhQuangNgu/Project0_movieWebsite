@@ -1,0 +1,204 @@
+.head-container{
+    width: 100%;
+    height: 7rem;
+    background-image: linear-gradient(90deg,#234A70,#11181D);
+    position: relative;
+}
+.head-brand{
+    width: 100%;
+    height: 100%;
+}
+.head-brand-link{
+    width: 100%;
+    height: 100%;
+    color: #41A0FF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+@media only screen and (max-width:1023px){
+    .head-brand-link{
+        justify-content: center;
+    }
+}
+.head-search{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head-search-container{
+    width: 75%;
+    height: 3.7rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: #152534;
+    padding:0 2rem;
+}
+.head-search-container > input{
+    width: 92%;
+    height: 100%;
+    outline: none;
+    color:#76A1C8;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+}
+.head-search-icon{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    color:white;
+    cursor: pointer;
+}
+.head-search-container > input::placeholder{
+    color:#4A545E;
+    font-size: 1.5rem;
+}
+.head-auth{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.head-auth-link{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.head-auth-link:first-child span{
+    margin-right: 1.5rem;
+}
+.head-auth-link span{
+    cursor: pointer;
+}
+.create-brand{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 3;
+}
+.create-brand-container{
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 0 0.5rem 0.2rem #333;
+    border:0.1rem solid #FB9305;
+    border-radius: 0.5rem;
+    padding:1rem;
+}
+.create-brand-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color:#FB9305;
+}
+.create-brand-close{
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    padding-right: 0.5rem;
+}
+.create-brand-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:2rem 0;
+}
+.create-brand-input > input{
+    width: 80%;
+    height: 7rem;
+    border-radius: 5rem;
+    padding:0 1.5rem;
+    font-size: 2rem;
+    outline: none;
+}
+.create-brand-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.create-brand-button > button{
+    width: 30%;
+    height: 4rem;
+    background-color: green;
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2rem;
+}
+.create-brand-button > button:active{
+    transform: scale(1.1);
+}
+.delete-brand-container{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 3;
+}
+.brand-list{
+    list-style: none;
+    padding:0;
+    margin:7rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.brand-list-item{
+    width: 45%;
+    margin:0 2.5%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:0.1rem solid #333;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 4rem;
+}
+.brand-list-item:hover{
+    transform: scale(1.1);
+}
+.brand-confirm{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.brand-button > button{
+    width: 7rem;
+    height: 3rem;
+    margin-left: 1rem;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}

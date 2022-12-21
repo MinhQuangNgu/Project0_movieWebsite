@@ -1,0 +1,46 @@
+.movie_kind-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #161F27;
+    padding:2rem 0;
+}
+.kind_movie-card-container{
+    width: 100%;
+    margin-top: 2rem;
+}
+.order-kind-container{
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    padding:0 1rem;
+    justify-content: space-between;
+}
+.order-kind-container > select{
+    width: 17%;
+    height: 60%;
+    background-color: #666666;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 400;
+}
+.order-kind-button{
+    width: 10%;
+    height: 60%;
+}
+.order-kind-button > button{
+    width: 100%;
+    height: 100%;
+    background-color: #666666;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.order-kind-button > button:hover{
+    background-color: rgba(0,0,0,0.4);
+}
